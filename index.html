@@ -67,17 +67,87 @@
   </select>
   <label for="char_exp">&#1054;&#1095;&#1082;&#1080; &#1086;&#1087;&#1099;&#1090;&#1072;</label> <input name="char_exp" id="char_exp" value="0" min="0" type="number"> </div>
   <div class="stat_box">
-
   <div class="chr-stat" id="strength"><label for="char_strength">&#1057;&#1080;&#1083;&#1072;</label>
   <input name="char_strength" id="char_strength" value="8" min="1" max="20" type="number"><br>
-  <label for="char_strength_mod">&#1052;&#1086;&#1076;. &#1057;&#1080;&#1083;&#1099;</label>
-  <input name="char_strength_mod" id="char_strength_mod" value="-1" min="-5" max="10" type="number"></div>
-<div class="chr-stat" id="dexterity"><label for="char_dexterity">&#1051;&#1086;&#1074;&#1082;&#1086;&#1089;&#1090;&#1100;</label>
-<input name="char_dexterity" id="char_dexterity" value="8" min="1" max="20" type="number"><br>
-<label for="char_dexterity_mod">&#1052;&#1086;&#1076;. &#1051;&#1086;&#1074;&#1082;&#1086;&#1089;&#1090;&#1080;</label>
-<input name="char_dexterity_mod" id="char_dexterity_mod" value="-1" min="-5" max="10" type="number"></div>
-
+  <label for="char_strength_mod">&#1052;&#1086;&#1076;. &#1057;&#1080;&#1083;&#1099;</label> <input name="char_strength_mod" id="char_strength_mod" value="-1" min="-5" max="10" type="number"></div>
+  <div class="chr-stat" id="dexterity"><label for="char_dexterity">&#1051;&#1086;&#1074;&#1082;&#1086;&#1089;&#1090;&#1100;</label>
+  <input name="char_dexterity" id="char_dexterity" value="8" min="1" max="20" type="number"><br>
+  <label for="char_dexterity_mod">&#1052;&#1086;&#1076;. &#1051;&#1086;&#1074;&#1082;&#1086;&#1089;&#1090;&#1080;</label> <input name="char_dexterity_mod" id="char_dexterity_mod" value="-1" min="-5" max="10" type="number"></div>
+  <div class="chr-stat" id="constitution"><label for="char_constitution">&#1058;&#1077;&#1083;&#1086;&#1089;&#1083;&#1086;&#1078;&#1077;&#1085;&#1080;&#1077;</label>
+  <input name="char_constitution" id="char_constitution" value="8" min="1" max="20" type="number"><br>
+  <label for="char_constitution_mod">&#1052;&#1086;&#1076;. &#1058;&#1077;&#1083;&#1086;&#1089;&#1083;&#1086;&#1078;&#1077;&#1085;&#1080;&#1103;</label> <input name="char_constitution_mod" id="char_constitution_mod" value="-1" min="-5" max="10" type="number"></div>
+  <div class="chr-stat" id="intelligence"><label for="char_intelligence">&#1048;&#1085;&#1090;&#1077;&#1083;&#1083;&#1077;&#1082;&#1090;</label>
+  <input name="char_intelligence" id="char_intelligence" value="8" min="1" max="20" type="number"><br>
+  <label for="char_intelligence_mod">&#1052;&#1086;&#1076;. &#1048;&#1085;&#1090;&#1077;&#1083;&#1083;&#1077;&#1082;&#1090;&#1072;</label> <input name="char_intelligence_mod" id="char_intelligence_mod" value="-1" min="-5" max="10" type="number"></div>
+  <div class="chr-stat" id="wisdom"><label for="char_wisdom">&#1052;&#1091;&#1076;&#1088;&#1086;&#1089;&#1090;&#1100;</label>
+  <input name="char_wisdom" id="char_wisdom" value="8" min="1" max="20" type="number"><br>
+  <label for="char_wisdom_mod">&#1052;&#1086;&#1076;. &#1052;&#1091;&#1076;&#1088;&#1086;&#1089;&#1090;&#1080;</label> <input name="char_wisdom_mod" id="char_wisdom_mod" value="-1" min="-5" max="10" type="number"></div>
+  <div class="chr-stat" id="charisma"><label for="char_charisma">&#1061;&#1072;&#1088;&#1080;&#1079;&#1084;&#1072;</label>
+  <input name="char_charisma" id="char_charisma" value="8" min="1" max="20" type="number"><br>
+  <label for="char_charisma_mod">&#1052;&#1086;&#1076;. &#1061;&#1072;&#1088;&#1080;&#1079;&#1084;&#1099;</label> <input name="char_charisma_mod" id="char_charisma_mod" value="-1" min="-5" max="10" type="number"></div>
   </div>
+  <div class="inspiration_block"><input name="inspiration" value="No" type="checkbox">&#1042;&#1076;&#1086;&#1093;&#1085;&#1086;&#1074;&#1077;&#1085;&#1080;&#1077; </div>
+  <div class="proficiency_bonus"> <label for="char_proficiency">&#1041;&#1086;&#1085;&#1091;&#1089;
+&#1084;&#1072;&#1089;&#1090;&#1077;&#1088;&#1089;&#1090;&#1074;&#1072;</label> <input name="char_proficiency" id="char_proficiency" value="2" min="2" max="6" type="number"> </div>
+  <div class="spellcasting_ability"> <label for="char_spellcasting_ability">&#1061;&#1072;&#1088;&#1072;&#1082;&#1090;&#1077;&#1088;&#1080;&#1089;&#1090;&#1080;&#1082;&#1072; &#1076;&#1083;&#1103; &#1079;&#1072;&#1082;&#1083;&#1080;&#1085;&#1072;&#1085;&#1080;&#1081;</label>
+  <select name="char_spellcasting_ability" id="char_spellcasting_ability">
+  <option value="1">&#1057;&#1080;&#1083;&#1072;</option>
+  <option value="2">&#1051;&#1086;&#1074;&#1082;&#1086;&#1089;&#1090;&#1100;</option>
+  <option value="3">&#1058;&#1077;&#1083;&#1086;&#1089;&#1083;&#1086;&#1078;&#1077;&#1085;&#1080;&#1077;</option>
+  <option value="4">&#1048;&#1085;&#1090;&#1077;&#1083;&#1083;&#1077;&#1082;&#1090;</option>
+  <option value="5">&#1052;&#1091;&#1076;&#1088;&#1086;&#1089;&#1090;&#1100;</option>
+  <option value="6" selected="selected">&#1061;&#1072;&#1088;&#1080;&#1079;&#1084;&#1072;</option>
+  </select>
+  <br>
+  <label for="char_spell_save_DC">&#1057;&#1083;&#1086;&#1078;&#1085;&#1086;&#1089;&#1090;&#1100; &#1079;&#1072;&#1082;&#1083;&#1080;&#1085;&#1072;&#1085;&#1080;&#1081;</label> <input name="char_spell_save_DC" id="char_spell_save_DC" type="number"> <br>
+  <label for="char_spell_attack_bonus">&#1041;&#1086;&#1085;&#1091;&#1089; &#1072;&#1090;&#1072;&#1082;&#1080; &#1079;&#1072;&#1082;&#1083;&#1080;&#1085;&#1072;&#1085;&#1080;&#1103;&#1084;&#1080;</label>
+  <input name="char_spell_attack_bonus" id="char_spell_attack_bonus" type="number"> </div>
+  <div class="saving_throws" id="saving_throws">
+  <div class="saving_throw"><input name="strength_saving_throw" value="No" type="checkbox"> <input name="char_strength_saving_throw" id="char_strength_saving_throw" type="number"><label for="char_strength_saving_throw">&#1057;&#1080;&#1083;&#1072;</label> </div>
+  <div class="saving_throw"><input name="dexterity_saving_throw" value="No" type="checkbox"> <input name="char_dexterity_saving_throw" id="char_dexterity_saving_throw" type="number"><label for="char_dexterity_saving_throw">&#1051;&#1086;&#1074;&#1082;&#1086;&#1089;&#1090;&#1100;</label> </div>
+  <div class="saving_throw"><input name="constitution_saving_throw" value="No" type="checkbox"> <input name="char_constitution_saving_throw" id="char_constitution_saving_throw" type="number"><label for="char_constitution_saving_throw">&#1058;&#1077;&#1083;&#1086;&#1089;&#1083;&#1086;&#1078;&#1077;&#1085;&#1080;&#1077;</label> </div>
+  <div class="saving_throw"><input name="intelligence_saving_throw" value="No" type="checkbox"> <input name="char_intelligence_saving_throw" id="char_intelligence_saving_throw" type="number"><label for="char_intelligence_saving_throw">&#1048;&#1085;&#1090;&#1077;&#1083;&#1083;&#1077;&#1082;&#1090;</label> </div>
+  <div class="saving_throw"><input name="wisdom_saving_throw" value="No" type="checkbox"> <input name="char_wisdom_saving_throw" id="char_wisdom_saving_throw" type="number"><label for="char_wisdom_saving_throw">&#1052;&#1091;&#1076;&#1088;&#1086;&#1089;&#1090;&#1100;</label> </div>
+  <div class="saving_throw"><input name="charisma_saving_throw" value="No" type="checkbox"> <input name="char_charisma_saving_throw" id="char_charisma_saving_throw" type="number"><label for="char_charisma_saving_throw">&#1061;&#1072;&#1088;&#1080;&#1079;&#1084;&#1072;</label> </div>
+  <label for="saving_throws">&#1057;&#1087;&#1072;&#1089;&#1073;&#1088;&#1086;&#1089;&#1082;&#1080;</label> </div>
+  <div class="skills" id="skills">
+  <div class="skill"><input name="acrobatics_skill" value="No" type="checkbox"> <input name="char_acrobatics_skill" id="char_acrobatics_skill" type="number"><label for="char_acrobatics_skill">&#1040;&#1082;&#1088;&#1086;&#1073;&#1072;&#1090;&#1080;&#1082;&#1072; (&#1051;&#1042;&#1050;)</label> </div>
+
+<div class="skill"><input name="animal_handling_skill" value="No" type="checkbox"> <input name="char_animal_handling_skill" id="char_animal_handling_skill" type="number"><label for="char_animal_handling_skill">&#1054;&#1073;&#1088;&#1072;&#1097;&#1077;&#1085;&#1080;&#1077; &#1089; &#1078;&#1080;&#1074;&#1086;&#1090;&#1085;&#1099;&#1084;&#1080; (&#1052;&#1044;&#1056;)</label> </div>
+
+<div class="skill"><input name="arcana_skill" value="No" type="checkbox"> <input name="char_arcana_skill" id="char_arcana_skill" type="number"><label for="char_arcana_skill">&#1052;&#1072;&#1075;&#1080;&#1103; (&#1048;&#1053;&#1058;)</label> </div>
+
+<div class="skill"><input name="athletics_skill" value="No" type="checkbox"> <input name="char_athletics_skill" id="char_athletics_skill" type="number"><label for="char_athletics_skill">&#1040;&#1090;&#1083;&#1077;&#1090;&#1080;&#1082;&#1072; (&#1057;&#1048;&#1051;)</label> </div>
+
+<div class="skill"><input name="deception_skill" value="No" type="checkbox"> <input name="char_deception_skill" id="char_deception_skill" type="number"><label for="char_deception_skill">&#1054;&#1073;&#1084;&#1072;&#1085; (&#1061;&#1040;&#1056;)</label> </div>
+
+<div class="skill"><input name="history_skill" value="No" type="checkbox"> <input name="char_history_skill" id="char_history_skill" type="number"><label for="char_history_skill">&#1048;&#1089;&#1090;&#1086;&#1088;&#1080;&#1103; (&#1048;&#1053;&#1058;)</label> </div>
+
+<div class="skill"><input name="history_skill" value="No" type="checkbox"> <input name="char_history_skill" id="char_history_skill" type="number"><label for="char_history_skill">&#1048;&#1089;&#1090;&#1086;&#1088;&#1080;&#1103; (&#1048;&#1053;&#1058;)</label> </div>
+
+<div class="skill"><input name="insight_skill" value="No" type="checkbox"> <input name="char_insight_skill" id="char_insight_skill" type="number"><label for="char_insight_skill">&#1055;&#1088;&#1086;&#1085;&#1080;&#1094;&#1072;&#1090;&#1077;&#1083;&#1100;&#1085;&#1086;&#1089;&#1090;&#1100; (&#1052;&#1044;&#1056;)</label> </div>
+
+<div class="skill"><input name="intimidation_skill" value="No" type="checkbox"> <input name="char_intimidation_skill" id="char_intimidation_skill" type="number"><label for="char_intimidation_skill">&#1047;&#1072;&#1087;&#1091;&#1075;&#1080;&#1074;&#1072;&#1085;&#1080;&#1077; (&#1061;&#1040;&#1056;)</label> </div>
+
+<div class="skill"><input name="medicine_skill" value="No" type="checkbox"> <input name="char_medicine_skill" id="char_medicine_skill" type="number"><label for="char_medicine_skill">&#1052;&#1077;&#1076;&#1080;&#1094;&#1080;&#1085;&#1072; (&#1048;&#1053;&#1058;)</label> </div>
+
+<div class="skill"><input name="nature_skill" value="No" type="checkbox"> <input name="char_nature_skill" id="char_nature_skill" type="number"><label for="char_nature_skill">&#1055;&#1088;&#1080;&#1088;&#1086;&#1076;&#1072; (&#1048;&#1053;&#1058;)</label> </div>
+
+<div class="skill"><input name="perception_skill" value="No" type="checkbox"> <input name="char_perception_skill" id="char_perception_skill" type="number"><label for="char_perception_skill">&#1042;&#1086;&#1089;&#1087;&#1088;&#1080;&#1103;&#1090;&#1080;&#1077; (&#1052;&#1044;&#1056;)</label> </div>
+
+<div class="skill"><input name="performance_skill" value="No" type="checkbox"> <input name="char_performance_skill" id="char_performance_skill" type="number"><label for="char_performance_skill">&#1042;&#1099;&#1089;&#1090;&#1091;&#1087;&#1083;&#1077;&#1085;&#1080;&#1077; (&#1061;&#1040;&#1056;)</label> </div>
+
+<div class="skill"><input name="persuasion_skill" value="No" type="checkbox"> <input name="char_persuasion_skill" id="char_persuasion_skill" type="number"><label for="char_persuasion_skill">&#1059;&#1073;&#1077;&#1078;&#1076;&#1077;&#1085;&#1080;&#1077; (&#1061;&#1040;&#1056;)</label> </div>
+
+<div class="skill"><input name="religion_skill" value="No" type="checkbox"> <input name="char_religion_skill" id="char_religion_skill" type="number"><label for="char_religion_skill">&#1056;&#1077;&#1083;&#1080;&#1075;&#1080;&#1103; (&#1052;&#1044;&#1056;)</label> </div>
+
+<div class="skill"><input name="sleight-of-hand_skill" value="No" type="checkbox"> <input name="char_sleight-of-hand_skill" id="char_sleight-of-hand_skill" type="number"><label for="char_sleight-of-hand_skill">&#1051;&#1086;&#1074;&#1082;&#1086;&#1089;&#1090;&#1100; &#1088;&#1091;&#1082; (&#1051;&#1042;&#1050;)</label> </div>
+
+<div class="skill"><input name="stealth_skill" value="No" type="checkbox"> <input name="char_stealth_skill" id="char_stealth_skill" type="number"><label for="char_stealth_skill">&#1057;&#1082;&#1088;&#1099;&#1090;&#1085;&#1086;&#1089;&#1090;&#1100; (&#1051;&#1042;&#1050;)</label> </div>
+
+<div class="skill"><input name="survival_skill" value="No" type="checkbox"> <input name="char_survival_skill" id="char_survival_skill" type="number"><label for="char_survival_skill">&#1042;&#1099;&#1078;&#1080;&#1074;&#1072;&#1085;&#1080;&#1077; (&#1052;&#1044;&#1056;)</label> </div>
+
+  <label for="skills">&#1053;&#1072;&#1074;&#1099;&#1082;&#1080;</label> </div>
 </form>
 
 </body></html>
